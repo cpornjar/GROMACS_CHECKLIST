@@ -22,8 +22,8 @@ pip install numpy matplotlib pandas
 
 ## How to generate input files
 
-gmx energy -f md.edr -o energy.xvg    # select Potential
-gmx energy -f md.edr -o density.xvg   # select Density
+gmx energy -f md.edr -o energy.xvg    # select Potential \
+gmx energy -f md.edr -o density.xvg   # select Density \
 gmx rms    -f md.xtc -s md.tpr -o rmsd.xvg
 
 ## Usage
