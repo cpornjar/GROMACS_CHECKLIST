@@ -6,8 +6,8 @@ Checks 3 essential criteria before MD trajectory analysis:
   2. Density (~1000 kg/m³ for water systems)
   3. RMSD plateau
 
-Author  : [Your Name] — COMFHA Research Group / SIMATEC
-GitHub  : https://github.com/[yourhandle]/gromacs-checklist
+Author  : Chalakon Pornjariyawatch — COMFHA Research Group / SIMATEC
+GitHub  : https://github.com/cpornjar/gromacs-checklist
 License : MIT
 
 Requirements:
