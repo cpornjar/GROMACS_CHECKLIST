@@ -45,5 +45,3 @@ python gromacs_checklist.py \
 ## Author
 
 Chalakon Pornjariyawatch — DPST Scholar, COMFHA Research Group
-## Related tools
-- [milk-frothing-analyzer](https://github.com/cpornjar/milk-frothing-analyzer)
