@@ -6,7 +6,7 @@ Checks 3 essential criteria before MD trajectory analysis:
   2. Density (~1000 kg/m³ for water systems)
   3. RMSD plateau
 
-Author  : Chalakon Pornjariyawatch — COMFHA Research Group / SIMATEC
+Author  : Chalakon Pornjariyawatch — COMFHA Research Group
 GitHub  : https://github.com/cpornjar/gromacs-checklist
 License : MIT
 
@@ -143,7 +143,7 @@ def print_report(energy_r: dict, density_r: dict, rmsd_r: dict):
     width = 62
     print()
     print("=" * width)
-    print(f"{BOLD}  GROMACS Trajectory Checklist  |  COMFHA / SIMATEC{RESET}")
+    print(f"{BOLD}  GROMACS Trajectory Checklist  |  COMFHA{RESET}")
     print("=" * width)
 
     # [1] Energy
@@ -236,7 +236,7 @@ def save_plot(energy_r: dict, density_r: dict, rmsd_r: dict,
                   facecolor="#1e1e2e", edgecolor="#333344",
                   labelcolor="#bbbbbb")
 
-    fig.suptitle("GROMACS Trajectory Checklist  |  COMFHA / SIMATEC",
+    fig.suptitle("GROMACS Trajectory Checklist  |  COMFHA",
                  color="#cccccc", fontsize=11, y=0.99)
     plt.savefig(outpath, bbox_inches="tight", facecolor=fig.get_facecolor())
     plt.close()
@@ -246,7 +246,7 @@ def save_plot(energy_r: dict, density_r: dict, rmsd_r: dict,
 # ── CLI ────────────────────────────────────────────────────────────────────────
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(
-        description="GROMACS 3-step trajectory checklist — COMFHA / SIMATEC",
+        description="GROMACS 3-step trajectory checklist — COMFHA",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
