@@ -1,7 +1,7 @@
 # GROMACS Trajectory Checklist
 
 3-step sanity check before MD trajectory analysis.
-Built from real research experience — COMFHA Research Group / SIMATEC.
+Built from real research experience — COMFHA Research Group
 
 ## Why this exists
 
